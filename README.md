@@ -19,7 +19,7 @@ Gradientenabstieg (WURZEL)                       [gebaut]
                 ├─ Straf-/Barriere-Verfahren      [gebaut]
                 └─ SQP                            [gebaut]
                      └─ Innere-Punkte-Verfahren   [DIESES STÜCK]
- └─ Stochastische Gradientenverfahren             [nicht gebaut, letztes Stück]
+ └─ Stochastische Gradientenverfahren             [gebaut, letztes Stück]
 ```
 
 **Vehikel B, erweitert um mehrere Ungleichungen (eigene Kopie ohne Import):** derselbe
@@ -163,3 +163,7 @@ streamlit run app.py
 - Wächter, A. & Biegler, L. T. (2006). *On the implementation of a primal-dual interior point
   filter line-search algorithm for large-scale nonlinear programming.* Mathematical Programming,
   106(1), 25–57.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Nichtlineare Optimierung: acht Stücke, zwei Äste](https://sebastianhanisch.net/konzepte-nichtlineare-optimierung.html).

@@ -69,8 +69,8 @@ st.markdown(
     "zu lassen."
 )
 st.caption(
-    "Stück 7 der 'Nichtlineare Optimierung'-Reihe. Geplantes Folgestück (noch nicht gebaut): "
-    "Stochastische Gradientenverfahren (letztes Stück, Brücke zu Deep Learning)."
+    "Stück 7 der 'Nichtlineare Optimierung'-Reihe. Folgestück: "
+    "[Stochastische Gradientenverfahren](https://sebastianhanisch-stochastische-gradientenverfahren-demo.streamlit.app/) (letztes Stück, Brücke zu Deep Learning)."
 )
 
 with st.expander("So funktioniert das Innere-Punkte-Verfahren", expanded=True):
@@ -217,7 +217,7 @@ $g_1(x)=0$, $g_j(x)+s_j=0$, $s_j\mu_j=\bar\mu$ (für jedes $j=1,\dots,K$), gelö
 
 st.markdown("---")
 st.caption(
-    "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) "
-    "– Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung "
-    "für Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Nichtlineare Optimierung: acht Stücke, zwei Äste](https://sebastianhanisch.net/konzepte-nichtlineare-optimierung.html)."
 )
