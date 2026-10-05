@@ -118,12 +118,14 @@ weggelassen — Fraction-to-Boundary allein reicht bei diesem kleinen, gutartige
 
 ## Tests
 
-36 Tests, `python -m pytest tests/ -v` (Laufzeit lokal ~2,9 Sekunden):
+57 Tests, `python -m pytest tests/ -v` (Laufzeit lokal ~20 Sekunden):
 - `test_functions.py` – Zielfunktion/Nebenbedingungen, Gradient gegen finite Differenzen.
 - `test_reference.py` – Referenzlösung.
 - `test_active_set.py` – Fallzahl $=2^K$, findet stets eine zulässige Lösung.
 - `test_solver.py` – Referenz-Konvergenz, Schlupf/Multiplikatoren bleiben positiv,
   Komplementaritäts-Lücke schrumpft.
+- `test_oracle_interior_point.py` – unabhängiges Orakel: Reduktion auf eine Variable $r$ (konvex, Untergrenzen
+  je Ungleichung) gegen Innere-Punkte-Lösung, Multiplikatoren und Enumeration, 10 Fälle.
 - `test_evaluation.py`, `test_claims.py` – jede Zahl oben nachgerechnet, inkl. Kreuzungspunkt.
 - `test_presets.py`, `test_app.py` – Presets, Regler-Extremwerte, Footer.
 
